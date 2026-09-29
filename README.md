@@ -19,10 +19,14 @@ Clicking it:
 
 1. Install BepInEx for Valheim if you haven't already (see link above, or
    use [r2modman](https://valheim.thunderstore.io/package/ebkr/r2modman/)).
-2. Download `Mod3-AutoSortChests.dll` from the
+2. Download `AutoSortChests.dll` from the
    [latest release](../../releases/latest).
-3. Drop it into `<Valheim install folder>\BepInEx\plugins\Mod3-AutoSortChests\`.
+3. Drop it into `<Valheim install folder>\BepInEx\plugins\AutoSortChests\`.
 4. Launch the game and open any chest - you'll see the new "Sort" button.
+
+**Upgrading from 0.1.0:** the DLL used to be called `Mod3-AutoSortChests.dll`.
+Delete the old `BepInEx\plugins\Mod3-AutoSortChests\` folder after installing
+the new version (the mod keeps no data there).
 
 ## Building from source
 
@@ -40,7 +44,7 @@ environment variable, then falls back to the default Steam location
 (`C:\Program Files (x86)\Steam\steamapps\common\Valheim`).
 
 The build automatically copies the built DLL into
-`<Valheim>\BepInEx\plugins\Mod3-AutoSortChests\` for quick in-game testing.
+`<Valheim>\BepInEx\plugins\AutoSortChests\` for quick in-game testing.
 
 ## How it works
 

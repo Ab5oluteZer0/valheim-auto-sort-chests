@@ -6,8 +6,8 @@
     <Nullable>disable</Nullable>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <AssemblyName>Mod3-AutoSortChests</AssemblyName>
-    <RootNamespace>Mod3_AutoSortChests</RootNamespace>
+    <AssemblyName>AutoSortChests</AssemblyName>
+    <RootNamespace>AutoSortChests</RootNamespace>
 
     <!-- Ustaw sciezke do Valheim przez zmienna srodowiskowa VALHEIM_PATH,
          albo nadpisz przy budowaniu: dotnet build -p:ValheimPath="D:\Games\Valheim" -->

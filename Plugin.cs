@@ -7,7 +7,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Mod3_AutoSortChests
+namespace AutoSortChests
 {
     // Dodaje przycisk "Sortuj" do okna otwartej skrzyni, obok istniejacych Take All / Stack All
     // (klon m_stackAllButton, wstawiony wyśrodkowany między nimi - pozycje zweryfikowane w logu gry).
@@ -18,7 +18,7 @@ namespace Mod3_AutoSortChests
     {
         public const string PluginGUID = "com.michal.valheim.autosortchests";
         public const string PluginName = "Auto Sort Chests";
-        public const string PluginVersion = "0.1.0";
+        public const string PluginVersion = "0.1.1";
 
         internal static ManualLogSource Log;
 
