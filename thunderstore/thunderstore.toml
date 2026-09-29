@@ -1,0 +1,31 @@
+[config]
+schemaVersion = "0.0.1"
+
+[package]
+namespace = "Ab5oluteZer0"
+name = "AutoSortChests"
+# Nadpisywane numerem z tagu wydania przy publikacji (workflow thunderstore.yml).
+versionNumber = "1.0.0"
+description = "Adds a Sort button to every chest window: merges identical stacks and orders items by type and name."
+websiteUrl = "https://github.com/Ab5oluteZer0/valheim-auto-sort-chests"
+containsNsfwContent = false
+
+[package.dependencies]
+"denikson-BepInExPack_Valheim" = "5.4.2351"
+
+[build]
+icon = "./icon.png"
+readme = "./README.md"
+outdir = "./build"
+
+[[build.copy]]
+source = "./dist"
+target = ""
+
+[publish]
+repository = "https://thunderstore.io"
+communities = ["valheim"]
+
+[publish.categories]
+# "ai-generated": zasada Thunderstore dla paczek, ktorych kod powstal z pomoca AI.
+valheim = ["mods", "utility", "client-side", "ai-generated"]
