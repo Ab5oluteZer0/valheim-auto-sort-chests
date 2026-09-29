@@ -1,14 +1,16 @@
 # Valheim Auto Sort Chests
 
 BepInEx mod for [Valheim](https://www.valheimgame.com/) that adds a **Sort**
-button to every container (chest) window, next to the built-in "Take All" /
-"Stack All" buttons.
+button to every container (chest) window, between the game's own "Take all"
+and "Place stacks" buttons.
 
 Clicking it:
 1. Merges identical item stacks into as few stacks as possible (same rule
    the game itself uses to decide if two items can stack).
 2. Lays out the remaining items in a consistent order: by item type, then
    alphabetically by name.
+
+![A chest after sorting: stacks merged and grouped](docs/chest.png)
 
 > **Unofficial mod.** This is a fan-made mod, not affiliated with or endorsed by
 > Iron Gate. It marks your game as modded (the game shows this in the main menu),
