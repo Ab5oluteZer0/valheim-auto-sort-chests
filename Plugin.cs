@@ -18,7 +18,7 @@ namespace AutoSortChests
     {
         public const string PluginGUID = "com.michal.valheim.autosortchests";
         public const string PluginName = "Auto Sort Chests";
-        public const string PluginVersion = "0.1.1";
+        public const string PluginVersion = "1.0.0";
 
         internal static ManualLogSource Log;
 
@@ -28,6 +28,9 @@ namespace AutoSortChests
         private void Awake()
         {
             Log = Logger;
+            // Gra prosi mody o ustawienie tej flagi: w menu pojawia sie napis, ze gra jest
+            // zmodowana (Iron Gate wymaga oznaczania modow jako nieoficjalnych).
+            Game.isModded = true;
             new Harmony(PluginGUID).PatchAll(typeof(AutoSortChestsPlugin).Assembly);
         }
 
