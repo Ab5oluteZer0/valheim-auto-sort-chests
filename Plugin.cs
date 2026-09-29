@@ -18,7 +18,7 @@ namespace AutoSortChests
     {
         public const string PluginGUID = "com.michal.valheim.autosortchests";
         public const string PluginName = "Auto Sort Chests";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
 
         internal static ManualLogSource Log;
 
