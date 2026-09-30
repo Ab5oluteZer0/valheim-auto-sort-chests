@@ -16,9 +16,9 @@ namespace AutoSortChests
     [BepInPlugin(PluginGUID, PluginName, PluginVersion)]
     public class AutoSortChestsPlugin : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.michal.valheim.autosortchests";
+        public const string PluginGUID = "com.ab5olutezer0.valheim.autosortchests";
         public const string PluginName = "Auto Sort Chests";
-        public const string PluginVersion = "1.0.1";
+        public const string PluginVersion = "1.0.2";
 
         internal static ManualLogSource Log;
 
